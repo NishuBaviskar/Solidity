@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sendMoney",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"modifiers.sol": "modifiers"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"modifiers.sol": {
+			"keccak256": "0x4bf047d79c45d44f11ce11a8cfcae7fcd5d18ab0c8d3905ca946a1ab8f3ed60e",
+			"license": "Unlicensed",
+			"urls": [
+				"bzz-raw://b5bd213dcf67a64c44171304f2e2e5203d1b654a2bb565c9eb1c579f88b481a2",
+				"dweb:/ipfs/QmWVvST4VNF29zninSriWexthRnZD6F7BS11rPaFAZaixF"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,117 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_pass",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "generatePass",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_pass",
+						"type": "string"
+					}
+				],
+				"name": "generatePass1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "password",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_pass",
+						"type": "string"
+					}
+				],
+				"name": "sendMoney",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"inheritance.sol": "c"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"hashFunction.sol": {
+			"keccak256": "0x61117e44a952eed7b95831689ccb27268904e8c0fd371b4821006945c9ca1dc0",
+			"license": "Unlicensed",
+			"urls": [
+				"bzz-raw://cd882a475850b7ae2b74e05ece1995a8fc8c368d331efa54e98272e7f7540cf5",
+				"dweb:/ipfs/QmaBR4qLWzgAPbmpXMGF3rdCVX4mySmgQJWFvadWUfi5so"
+			]
+		},
+		"inheritance.sol": {
+			"keccak256": "0xc90a0284aea96775ded99b328d6ee2019ecee57f19a39af4f3d64bf7fa282af2",
+			"license": "Unlicensed",
+			"urls": [
+				"bzz-raw://e3202b9a7968a77694e63cd1f9b9cac8763307b427dd3146b2d3cf4a1c5b6b09",
+				"dweb:/ipfs/QmczCbDuYbd8FpyMKonajdZb5XWNeFS46MSDgJUdjuXCZY"
+			]
+		}
+	},
+	"version": 1
+}
